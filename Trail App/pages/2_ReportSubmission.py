@@ -21,7 +21,7 @@ def clean_text(text):
 # Function to load trail locations from CSV
 @st.cache_data
 def load_locations():
-    df = pd.read_csv('trail_info.csv')
+    df = pd.read_csv('Trail App/trail_info.csv')
     return df['location'].tolist()
 
 # Load location list
