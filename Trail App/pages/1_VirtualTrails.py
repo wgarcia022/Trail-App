@@ -34,7 +34,7 @@ st.markdown(f"You selected: **{trail_name}** — {location}")
 if st.button("Generate Trail Overview"):
     # --- Display official trail image ---
     if trail_name == "Coyote Creek Trail":
-        image = Image.open("assets/Coyote Creek.jpeg")  # Point to assets folder
+        image = Image.open("Trail App/assets/Coyote Creek.jpeg")  # Point to assets folder
         st.image(image, caption="Coyote Creek Trail", use_container_width=True)
 
     elif trail_name == "Los Gatos Creek Trail":
