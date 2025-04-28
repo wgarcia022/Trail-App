@@ -1,6 +1,0 @@
-streamlit
-openai
-pillow
-fpdf
-pandas
-python-dotenv
