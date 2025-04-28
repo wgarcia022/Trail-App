@@ -1,8 +1,5 @@
-streamlit
 openai
 pillow
 fpdf
 pandas
-matplotlib
-python-dotenv
 datetime
