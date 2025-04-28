@@ -5,3 +5,4 @@ fpdf
 pandas
 matplotlib
 python-dotenv
+datetime
