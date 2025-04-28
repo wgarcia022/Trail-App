@@ -1,5 +1,6 @@
+streamlit
 openai
 pillow
 fpdf
 pandas
-datetime
+python-dotenv
