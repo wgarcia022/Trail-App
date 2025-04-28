@@ -38,11 +38,11 @@ if st.button("Generate Trail Overview"):
         st.image(image, caption="Coyote Creek Trail", use_container_width=True)
 
     elif trail_name == "Los Gatos Creek Trail":
-        image = Image.open("assets/Los Gatos Creek.jpg")  # Point to assets folder
+        image = Image.open("Trail App/assets/Los Gatos Creek.jpg")  # Point to assets folder
         st.image(image, caption="Los Gatos Creek Trail", use_container_width=True)
 
     elif trail_name == "Penitencia Creek Trail":
-        image = Image.open("assets/Penitencia Creek.webp")  # Point to assets folder
+        image = Image.open("Trail App/assets/Penitencia Creek.webp")  # Point to assets folder
         st.image(image, caption="Penitencia Creek Trail", use_container_width=True)
 
     # --- Generate AI trail info ---
